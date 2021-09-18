@@ -1,0 +1,58 @@
+.lowerFooterContainer {
+    height: 65px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #bbbaba;;
+}
+
+.lowerFooterWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;
+    
+}
+
+.footerLinks{
+    display: inherit;
+   padding: 0;
+}
+
+.footerLinks li {
+    list-style: none;
+    font-size: .9em;
+    color: #333333;
+    margin: 10px 10px 10px 0px;
+}
+
+.footerLinks  a {
+    color: #333333;
+}
+
+.footerLinks li:last-child a{
+   color: #5c2483;
+  
+}
+
+.selectCountry {
+    width: 180px;
+    height: 35px;
+    border: 1px solid #d4d3d3;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 5px;
+    font-weight: 700;
+    margin: 13px 0;
+    color: #4d4d4d;
+}
+
+.selectCountry:focus {
+    outline: none;
+}
+
+.irelandFlag {
+    font-size: 40px;
+    height:30px;
+    width: 30px;
+    background-color: red;
+}

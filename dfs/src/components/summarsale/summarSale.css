@@ -1,0 +1,36 @@
+.summarSaleWraper {
+    width: 1360px;
+    height: 200px;
+    margin: auto;
+    background-image: url(./summarSaleAssets/halfPrice.jpeg);
+    margin-top: 5px;
+    
+   
+  }
+
+.summarSaleWraper p {
+    position: relative;
+    text-align: right;
+    font-size: 2.7em;
+    margin:0;
+    padding:0;
+    top: 50px;
+    font-weight: 700;
+    
+}
+
+.firstLine{
+ 
+  right: 110px;
+
+}
+
+.secondLine{
+ 
+  right: 70px;
+}
+
+
+
+
+

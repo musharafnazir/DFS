@@ -1,0 +1,59 @@
+
+.filterBarWrapper {
+    margin: 30px 0;
+    background-color: #ede8e8;
+    height: 70px;
+
+}
+
+.filterSortBar {
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    margin: auto;
+}
+
+.filter {
+    background: url(./middleSectionAssets/filter.svg);
+}
+
+.sort {
+    background: url(./middleSectionAssets/sort.svg)
+}
+
+.filter, .sort{
+    
+    background-position-x: 80%;
+    background-position-y: 50%;
+    background-size: 15px 15px;
+    background-color:#fff !important;
+    padding: 14px 56px 14px 19px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    background-repeat: no-repeat;
+    margin-top: 13px;
+    
+}
+
+.endOfResults {
+    text-align: center;
+    font-weight: 100;
+    width: 1360px;
+    padding: 30px 0px;
+    margin:  auto;
+    border-bottom:  1px solid #d2d0d0;
+    font-size: 14px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    color: #6f429f;
+}
+
+
+
+
+
+

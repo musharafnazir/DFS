@@ -1,0 +1,34 @@
+.contactSectionContainer {
+    background: rgb(223, 222, 222);
+    height: 260px;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 950px;
+    margin: auto;
+}
+
+.contactWrapper ul{
+    margin-right: 90px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.contactWrapper ul li:first-child {
+    color: #6f429f;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 10px 0 15px 0;
+}
+
+.contactWrapper ul li {
+    list-style: none;
+    margin: 10px 0 10px 0;
+}
+
+.contactWrapper a{
+    font-size: .9em;
+    color: #333333;
+}

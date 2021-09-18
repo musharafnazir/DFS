@@ -1,0 +1,15 @@
+.callBackWrapper{
+    position: fixed;
+    z-index: 99;
+    width: 39px;
+    height: 160px;
+    cursor: pointer;
+    right: 0px;
+    top: 250px;
+    opacity: 1;
+
+}
+
+.callBackWrapper a{
+    transition: all 2s ease 0s;
+}

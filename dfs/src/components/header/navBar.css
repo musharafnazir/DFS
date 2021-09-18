@@ -1,0 +1,57 @@
+.navWrapper{
+    background: #5c2483;
+    margin-top: 12px;
+    height: 45px;
+    width: 100%;
+}
+
+.navBar {
+        width: 1360px;
+        margin: auto;
+        height: 45px;
+}
+
+.navBar a span{
+    padding: 6px 26px 6px 2px;
+    border-right: 1px solid hsla(0,0%,100%,.5);
+}
+
+.navBar a{
+    display: inline-block;
+    padding: 14px 2px 15px 25px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial,Verdana,Helvetica,sans-serif;  
+}
+
+.bedAndMatt {
+  margin-left: 32px !important;
+  padding-right: 52px !important;
+}
+
+.navBar a:last-child span{
+    border: none !important;
+    margin-left: -5px !important;
+    padding-right: 0px !important;
+}
+
+.navBar a:hover {
+    background: white;
+    color: #5c2483;
+}
+
+.offerClearence {
+    position: relative;
+    background-color: #d0043c;
+    right: 3px;
+}
+
+.offerClearence span {
+    border-right: none !important;
+}
+
+.offerClearence:hover {
+    background-color: white;
+    color:  #d0043c;
+}

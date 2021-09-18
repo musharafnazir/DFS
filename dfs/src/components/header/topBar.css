@@ -1,0 +1,32 @@
+.topbarList {
+        display: flex;
+        justify-content: flex-end;
+        margin: auto;
+        margin-top: 10px;
+        width: 1330px;
+}
+
+
+.topbarListItem {
+    margin: 0px 30px 3px 0px;
+    padding: 0px 5px 0px 5px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 80%;
+    line-height: 1.4;
+    list-style: none;
+}
+
+.topbarListItem a {
+    text-decoration: none;
+}
+
+.topbarListItem img {
+    height: 20px;
+    width: 25px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+
+.topbarListItem:last-child {
+    margin-right: 30px;
+}
